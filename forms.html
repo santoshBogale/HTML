@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>form</title>
+    <style>
+      ul {
+        list-style-type: none;
+        background-color: red;
+        margin: 0;
+        padding:0;
+        overflow: hidden;
+      }
+      li {
+        float: left;
+      }
+      li a{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 16;
+        text-decoration: none;
+      }
+      li a:hover{
+        background-color: aliceblue;
+      }
+      aside{
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        color: white;
+        font-style:italic;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body style="background-color:white;border:solid 10px red;">
+    <div id="logo" style="margin-left: 560px; justify-content: center;">
+      <img src="E:\HTML\logo.jpg" height="50px" width="50px">
+    </div>
+    <h1 style="color: red; text-align: center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 50px;justify-content: center;"><b>JANASENA</b></h1>
+
+  
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div style="background-color: red;color: white;">
+      <h2>JANASENA PARTY</h2>
+      <p>Jana Sena or Jana Sena Party (JSP)People's Army Party is an Indian political party based in the states of Andhra Pradesh and Telangana. It was founded by Telugu film star Pawan Kalyan on 14 March 2014.</p>
+    </div>
+    <aside>
+      <p>Pawan Kalyan was invited to Harvard University to deliver a speech in 14th edition of India Conference 2017 </p>
+    </aside>
+
+    <form>
+      <h2 style="color: red;">MEMBERSHIP FORM:</h2>
+      <label for="firstname">FIRST NAME</label>
+      <input type="text" name="fname" id="firstname">
+      <label for="lastname">LAST NAME</label>
+      <input type="text" name="lname" id="lastname"><br>
+      <p> GENDER</p>
+
+      <input type="radio" name="gender" id="male">
+      <label for="male">MALE</label><br>
+      <input type="radio" name="gender" id="female">
+      <label for="female">FEMALE</label><br>
+      <input type="radio" name="gender" id="others">
+      <label for="others">OTHERS</label><br><br>
+      <label for="age">AGE</label>
+      <input type="number" min="18" name="AGE" id="age"><br><br>
+      <label for="Contact">CONTACT NO</label>
+      <input type="tel" min="10" max="10" name="con" id="Contact>"
+    </form>
+
+  </body>
+</html>
